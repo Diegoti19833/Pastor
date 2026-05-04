@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#1A2E45"/>
+  <text x="400" y="480" text-anchor="middle" fill="#C9A84C" font-size="80" font-family="Georgia,serif">✦</text>
+  <text x="400" y="560" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="28" font-family="Georgia,serif">Nélio da Silva</text>
+  <text x="400" y="600" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="16" font-family="sans-serif">[ Adicione a foto do Pastor aqui ]</text>
+  <text x="400" y="630" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="14" font-family="sans-serif">src/assets/pastor.jpg  ·  public/pastor.jpg</text>
+</svg>

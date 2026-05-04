@@ -1,0 +1,161 @@
+.books {
+  background: var(--cream);
+  padding: 7rem 0;
+  color: var(--navy);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  color: var(--navy);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.title em { color: var(--gold-dark); font-style: italic; }
+
+.subtitle {
+  color: #5a6a7a;
+  font-size: 1rem;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: var(--white);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Book cover */
+.cover {
+  position: relative;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.coverInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.coverDeco {
+  font-size: 1.8rem;
+  color: var(--gold);
+  opacity: 0.7;
+}
+
+.coverTitle {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.95);
+  line-height: 1.3;
+}
+
+.coverAuthor {
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
+
+.coverSpine {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  background: var(--gold);
+  opacity: 0.7;
+}
+
+/* Info */
+.info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.bookTitle {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.bookDesc {
+  font-size: 0.88rem;
+  color: #5a6a7a;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.buyBtn {
+  margin-top: 0.75rem;
+  background: var(--gold);
+  color: var(--navy);
+  border: none;
+  border-radius: 50px;
+  padding: 0.65rem 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
+  align-self: flex-start;
+  box-shadow: 0 4px 14px rgba(201,168,76,0.3);
+}
+
+.buyBtn:hover {
+  background: var(--gold-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(201,168,76,0.4);
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 580px) {
+  .grid { grid-template-columns: 1fr; }
+  .container { padding: 0 1.5rem; }
+}
