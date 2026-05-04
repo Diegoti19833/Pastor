@@ -52,7 +52,7 @@ export default function ChurchPlanting() {
 
         {/* Foto do pastor — lado direito, igual à home */}
         <div className={styles.photoWrapper}>
-          <img src={pastorPhoto} alt="Pastor Nélio da Silva" className={styles.photo} />
+          <img src={pastorPhoto} alt="Pastor Nélio DaSilva" className={styles.photo} />
           <div className={styles.overlayLeft} />
           <div className={styles.overlayBottom} />
           <div className={styles.overlayTop} />

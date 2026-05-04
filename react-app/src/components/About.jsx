@@ -37,7 +37,7 @@ export default function About() {
             <div className={styles.photoFrame}>
               <img
                 src="/pastor.jpg"
-                alt="Pastor Nélio da Silva"
+                alt="Pastor Nélio DaSilva"
                 className={styles.photo}
               />
               <div className={styles.photoQuote}>
@@ -45,14 +45,14 @@ export default function About() {
                   "Deus não chama os capacitados.<br />
                   <strong>Ele capacita os chamados.</strong>"
                 </blockquote>
-                <cite>— Nélio da Silva</cite>
+                <cite>— Nélio DaSilva</cite>
               </div>
             </div>
           </div>
 
           <div className={styles.textCol}>
             <p className={styles.lead}>
-              Nélio da Silva, matogrossense do sul, ordenado pela Igreja Presbiteriana
+              Nélio DaSilva, matogrossense do sul, ordenado pela Igreja Presbiteriana
               do Brasil em <strong>1977</strong>. Se transferiu para os Estados Unidos
               em <strong>1980</strong> e atualmente é membro da{' '}
               <strong>Presbyterian Church in America (PCA)</strong> e membro do

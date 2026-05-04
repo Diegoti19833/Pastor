@@ -14,11 +14,13 @@ const links = [
       { label: 'Plantar igrejas mudou a minha vida - uma jornada de fé, Chamado e Obediência', href: '/plantacao-de-igrejas' }
     ]
   },
-  { label: 'Mentoria', href: '/mentoria', anchor: false },
+  // REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
+  // { label: 'Mentoria', href: '/mentoria', anchor: false },
   { label: 'Devocionais', href: '/devocionais', anchor: false },
   { label: 'Sobre', href: '#sobre', anchor: true },
-  { label: 'Livros', href: '#livros', anchor: true },
-  { label: 'Contato', href: '#contato', anchor: true },
+  // REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
+  // { label: 'Livros', href: '#livros', anchor: true },
+  // { label: 'Contato', href: '#contato', anchor: true },
 ]
 
 export default function Navbar() {
@@ -108,10 +110,11 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA */}
+        {/* REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
         <a href="#contato" className={styles.cta} onClick={(e) => handleAnchorClick(e, '#contato')}>
           Receber Encorajamento
         </a>
+        */}
 
         {/* Hamburger */}
         <button
@@ -150,9 +153,11 @@ export default function Navbar() {
             </Link>
           )
         ))}
+        {/* REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
         <a href="#contato" className={styles.mobileCta} onClick={(e) => handleAnchorClick(e, '#contato')}>
           Receber Encorajamento
         </a>
+        */}
       </div>
     </nav>
   )

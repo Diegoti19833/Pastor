@@ -41,7 +41,7 @@ export default function Hero() {
         <img
           ref={containerRef}
           src={pastorPhoto}
-          alt="Pastor Nélio da Silva"
+          alt="Pastor Nélio DaSilva"
           className={styles.photo}
         />
         {/* Gradient overlays */}
@@ -71,9 +71,11 @@ export default function Hero() {
           <a href="#sobre" className={styles.btnPrimary}>
             Conheça o Ministério
           </a>
+          {/* REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
           <a href="#contato" className={styles.btnSecondary}>
             Receber Encorajamento ✦
           </a>
+          */}
         </div>
 
         {/* Stats bar */}

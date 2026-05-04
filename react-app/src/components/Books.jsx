@@ -56,7 +56,7 @@ export default function Books() {
                 <div className={styles.coverInner}>
                   <div className={styles.coverDeco}>✦</div>
                   <h3 className={styles.coverTitle}>{book.title}</h3>
-                  <p className={styles.coverAuthor}>Nélio da Silva</p>
+                  <p className={styles.coverAuthor}>Nélio DaSilva</p>
                 </div>
                 <div className={styles.coverSpine} />
               </div>

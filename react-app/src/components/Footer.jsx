@@ -12,7 +12,7 @@ export default function Footer() {
             <div className={styles.logo}>
               <span className={styles.logoIcon}>✦</span>
               <div>
-                <strong>Nélio da Silva</strong>
+                <strong>Nélio DaSilva</strong>
                 <small>Portal do Encorajamento</small>
               </div>
             </div>
@@ -30,11 +30,18 @@ export default function Footer() {
           <div className={styles.linksGroup}>
             <h4>Navegação</h4>
             <ul>
-              {['Início', 'Ministério', 'Sobre', 'Livros', 'Contato'].map(l => (
+              {['Início', 'Ministério', 'Sobre'].map(l => (
                 <li key={l}>
                   <a href={`#${l === 'Início' ? 'inicio' : l.toLowerCase()}`}>{l}</a>
                 </li>
               ))}
+              {/* REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
+              {['Livros', 'Contato'].map(l => (
+                <li key={l}>
+                  <a href={`#${l.toLowerCase()}`}>{l}</a>
+                </li>
+              ))}
+              */}
             </ul>
           </div>
 
@@ -44,7 +51,7 @@ export default function Footer() {
               <li><a href="#ministerio">Homens de Valor</a></li>
               <li><a href="#ministerio">Plantação de Igrejas</a></li>
               <li><a href="#ministerio">Pregação e Ensino</a></li>
-              <li><a href="#livros">Livros</a></li>
+              {/* REMOVIDO TEMPORARIAMENTE: <li><a href="#livros">Livros</a></li> */}
             </ul>
           </div>
 
@@ -60,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <span>© {year} Pastor Nélio da Silva — Todos os direitos reservados.</span>
+          <span>© {year} Pastor Nélio DaSilva — Todos os direitos reservados.</span>
           <span>Orlando, FL · EUA</span>
         </div>
       </div>

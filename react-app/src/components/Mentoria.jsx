@@ -97,7 +97,7 @@ export default function Mentoria() {
         <div className={styles.heroBg} aria-hidden />
 
         <div className={styles.photoWrapper}>
-          <img src={pastorPhoto} alt="Pastor Nélio da Silva" className={styles.photo} />
+          <img src={pastorPhoto} alt="Pastor Nélio DaSilva" className={styles.photo} />
           <div className={styles.overlayLeft} />
           <div className={styles.overlayBottom} />
           <div className={styles.overlayTop} />
@@ -226,7 +226,7 @@ export default function Mentoria() {
             das pessoas que Deus colocou ao meu lado nos momentos certos.
             Quero ser esse alguém para outros."
           </blockquote>
-          <cite className={styles.quoteCite}>— Pastor Nélio da Silva</cite>
+          <cite className={styles.quoteCite}>— Pastor Nélio DaSilva</cite>
         </div>
 
         {/* CTA */}
