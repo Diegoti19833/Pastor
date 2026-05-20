@@ -17,6 +17,9 @@ const links = [
   // REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
   // { label: 'Mentoria', href: '/mentoria', anchor: false },
   { label: 'Devocionais', href: '/devocionais', anchor: false },
+  { label: 'De Pastor para Pastor', href: '/de-pastor-para-pastor', anchor: false },
+  { label: 'Motivação do Céu', href: '/motivacao-do-ceu', anchor: false },
+  { label: 'Anseios da Alma', href: '/anseios-da-alma', anchor: false },
   { label: 'Sobre', href: '#sobre', anchor: true },
   // REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
   // { label: 'Livros', href: '#livros', anchor: true },

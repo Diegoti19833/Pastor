@@ -9,6 +9,166 @@ import imgEmpresarios from '../assets/empresarios_theme_1775152764701.png'
 
 // ── CONTEÚDO REAL DAS PRÉVIAS ──
 const previewContent = {
+  // ── SOLTEIROS — Dias 1-8 ──
+  's1': {
+    title: 'Dia 1 — Quando a espera parece ser longa demais',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Esperei com paciência no Senhor…" — Salmos 40:1',
+    texto: `Um dos maiores desafios da vida de um solteiro(a) não é a solidão em si, mas o tempo de espera. Há momentos em que surgem perguntas silenciosas: "Será que algo está errado comigo?" "Por que ainda não aconteceu o que tanto espero?" "Porventura, Deus se esqueceu de mim?"
+
+A cultura ao redor frequentemente exerce pressões através de padrões e comparações. Relacionamentos parecem acontecer ao redor, enquanto a própria história parece estagnada. Mas a espera, à luz da Palavra, nunca é um tempo vazio.
+
+O salmista declara: "Esperei com paciência no Senhor." Isso revela algo profundo: esperar em Deus não é de forma alguma passividade — é uma plena e ativa confiança. Enquanto o mundo valoriza a pressa, Deus opera através de processos. O tempo de espera não é um tempo perdido, mas um tempo de formação.
+
+Deus não está apenas preparando alguém para você — Ele está também preparando você. O caráter, a maturidade emocional, a dependência de Deus e a clareza de propósito são frequentemente moldados nesse período. A ansiedade tenta antecipar o tempo. A fé aprende a confiar no tempo de Deus.
+
+**Reflexão Prática:**
+• Tenho lidado com a espera com paciência ou com ansiedade?
+• Tenho me comparado com outras pessoas?
+• Tenho compreendido que este tempo também é formativo?
+
+**Exercício espiritual:** Separe hoje alguns minutos para agradecer a Deus pelo tempo presente, reconhecendo que Ele está trabalhando em você, mesmo na espera.`,
+    oracao: 'Senhor, ajuda-me a confiar no Teu tempo. Mesmo quando a espera parece longa, ensina-me a descansar em Ti. Trabalha em meu coração, prepara-me por completo e mantenha firme a minha fé. Em nome de Jesus, Amém.'
+  },
+  's2': {
+    title: 'Dia 2 — A solidão não pode e nem deve ser vazia',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Deus é o nosso refúgio e fortaleza…" — Salmos 46:1',
+    texto: `A solidão é uma das experiências mais comuns na vida do solteiro(a), porém com muita frequência não é compreendida corretamente. Existe uma diferença importante entre estar só e estar vazio. Muitas pessoas associam solidão à ausência de algo ou alguém, como se a vida só fosse completa quando acompanhada.
+
+No entanto, a Escritura revela uma verdade profunda: Deus não apenas preenche espaços externos — Ele se torna presença real no interior. O salmista declara que Deus é refúgio e fortaleza. Isso significa que, nos momentos em que a sensação de solidão aparece, não estamos necessariamente desamparados. A presença de Deus não depende de companhia humana para existir.
+
+Quando Deus é reconhecido como refúgio, a solidão deixa de ser um vazio ameaçador e passa a ser um espaço de encontro com o Senhor. É nesse lugar que muitos aprendem a ouvir melhor, a depender mais, e a crescer em intimidade com Deus. A solidão, quando bem compreendida, não é apenas ausência — mas pode se tornar o propício ambiente para uma maior profundidade espiritual.
+
+**Reflexão Prática:**
+• Como tenho lidado com os meus momentos de solidão?
+• Tenho buscado preencher esse espaço com distrações ou com Deus?
+• Tenho reconhecido a presença de Deus mesmo quando estou só?
+
+**Exercício espiritual:** Separe um momento do seu dia para estar em silêncio na presença de Deus, sem distrações, apenas reconhecendo Sua presença.`,
+    oracao: 'Senhor, em momentos de solidão, lembra-me que não estou sozinho. Tu és o meu refúgio e minha fortaleza. Ensina-me a encontrar descanso na Tua presença e a perceber que contigo nunca estou vazio. Em nome de Jesus, Amém.'
+  },
+  's3': {
+    title: 'Dia 3 — O coração precisa ser curado (Parte 1)',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Ele cura os de coração quebrantado e trata das suas feridas." — Salmos 147:3',
+    texto: `Nem sempre a jornada da solteirice é marcada apenas por expectativa e esperança. Muitas vezes, ela traz consigo histórias de dor. Relacionamentos que não deram certo. Expectativas frustradas. Promessas não cumpridas. Rejeições que deixaram marcas profundas.
+
+Todo esse acúmulo pode gerar feridas profundas no coração. E um coração ferido, se não tratado, tende a influenciar decisões futuras, gerar medo de novos envolvimentos e criar barreiras emocionais.
+
+Porém a Palavra de Deus nos revela algo essencial: Deus não apenas observa o coração quebrado — Ele o trata. A cura de Deus não é superficial. Ela é profunda, progressiva e restauradora. Muitas pessoas entram em novos relacionamentos sem terem sido curadas do passado. Isso pode gerar insegurança, temor, desconfiança e padrões emocionais distorcidos.
+
+Por isso, o tempo de solteirice também pode ser um tempo de cura. Deus, em Sua graça, trabalha no interior antes de conduzir ao exterior. Antes de preparar alguém para você, Ele deseja restaurar plenamente o seu coração. Um coração curado não reage apenas com base em experiências passadas, mas responde com maturidade, segurança e confiança em Deus.
+
+**Aplicação Prática:**
+• Existem feridas emocionais que ainda não entreguei a Deus?
+• Tenho permitido que experiências do passado influenciem o meu presente?
+• Meu coração está honestamente aberto e disponível para ser tratado por Deus?
+
+**Exercício espiritual:** Traga diante de Deus memórias ou situações que ainda lhe causam dor e peça que Ele comece um processo de cura interior.`,
+    oracao: 'Senhor, Tu conheces o meu coração em profundidade. Trata das feridas dentro de mim, eu as entrego a Ti. Cura-me onde fui ferido(a), restaura aquilo que foi quebrado e prepara meu coração para viver segundo a Tua vontade. Em nome de Jesus, Amém.'
+  },
+  's4': {
+    title: 'Dia 4 — Expectativas precisam ser alinhadas com as de Deus (Parte 1)',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Entrega o teu caminho ao Senhor; confia nele, e o mais ele fará." — Salmos 37:5',
+    texto: `Uma das maiores fontes de frustração na vida de um solteiro(a) não é apenas a ausência de um relacionamento, mas expectativas não alinhadas com a realidade e com a vontade de Deus. Tantas vezes criamos imagens mentais sobre como a vida deveria ser, quando algo deveria acontecer, como deveria acontecer e com quem deveria acontecer.
+
+Essas expectativas, quando não submetidas a Deus, podem gerar ansiedade, comparação e constante insatisfação. A expectativa não é o problema em si — o problema surge quando ela não está alinhada com a vontade de Deus.
+
+O salmista nos ensina a entregar o caminho ao Senhor. Isso inclui não apenas ações, mas também desejos, sonhos e expectativas. Confiar em Deus significa abrir mão da necessidade de controlar o tempo e o formato das respostas. Deus trabalha de forma perfeita, ainda que diferente das nossas projeções.
+
+Quando nossas expectativas são moldadas pela Palavra, passamos a desejar aquilo que Deus deseja, e não apenas aquilo que desejamos em um determinado momento. Isso traz descanso ao coração e clareza à jornada. Expectativas desalinhadas geram frustração. Expectativas entregues a Deus geram profunda e plena paz.
+
+**Aplicação Prática:**
+• Minhas expectativas estão baseadas na vontade de Deus ou na minha vontade pessoal?
+• Tenho me frustrado por não ver as minhas expectativas sendo cumpridas?
+• Estou disposto(a) a alinhar meus desejos com os propósitos de Deus?
+
+**Exercício espiritual:** Escreva suas expectativas relacionadas à área afetiva e entregue cada uma delas a Deus em oração, pedindo que Ele alinhe seu coração com a vontade dEle.`,
+    oracao: 'Senhor, eu entrego a Ti as minhas expectativas. Ajuda-me a não viver guiado apenas pelos meus desejos, mas pela Tua perfeita vontade. Alinha meu coração com o Teu propósito e ensina-me a confiar no Teu tempo e no Teu caminho. Em nome de Jesus, Amém.'
+  },
+  's5': {
+    title: 'Dia 5 — Quando o tempo de Deus é diferente do meu',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Tudo tem o seu tempo determinado…" — Eclesiastes 3:1',
+    texto: `Uma das maiores tensões na vida do solteiro(a) é lidar com o tempo. Existe um desejo legítimo por avanço, por relacionamento, por construção de uma nova fase da vida. No entanto, nem sempre o tempo interior coincide com o tempo externo.
+
+Enquanto o coração deseja respostas rápidas, Deus trabalha com processos que envolvem maturação, alinhamento e preparo. A Escritura afirma que tudo tem um tempo determinado. Isso significa que a vida não é aleatória — ela é conduzida por uma ordem previamente estabelecida por Deus.
+
+O desafio não é apenas aceitar que existe um tempo, mas confiar que o tempo de Deus é perfeito, ainda que diferente do nosso. Muitas vezes, a ansiedade surge quando tentamos acelerar aquilo que Deus ainda está amadurecendo. Relacionamentos apressados podem ignorar processos fundamentalmente importantes. Decisões precipitadas podem gerar consequências desnecessárias que poderiam ser evitadas.
+
+Deus jamais se atrasa — Deus trabalha sempre com precisão. O tempo de espera, quando vivido com Deus, não é tempo perdido, mas tempo de preparação. Ele prepara o coração, ajusta a perspectiva e alinha circunstâncias para que o resultado final seja saudável e plenamente duradouro.
+
+**Aplicação Prática:**
+• Tenho me sentido pressionado(a) pelo tempo?
+• Tenho comparado a minha jornada com a de outras pessoas?
+• Tenho conseguido confiar que Deus está em pleno controle do meu tempo?
+
+**Exercício espiritual:** Reflita sobre sua linha do tempo pessoal e entregue a Deus o desejo de acelerar processos, pedindo paz para confiar plenamente no tempo dEle.`,
+    oracao: 'Senhor, Tu conheces o tempo de todas as coisas. Ajuda-me a descansar no Teu tempo e a não viver ansioso pelo futuro. Ensina-me a confiar que o que vem de Ti virá no momento certo. Em nome de Jesus, Amém.'
+  },
+  's6': {
+    title: 'Dia 6 — Lidando com a influência da pressão social',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Não se amoldem ao padrão deste mundo…" — Romanos 12:2',
+    texto: `A pressão social é uma realidade constante na vida de muitos solteiros. Perguntas de familiares. Expectativas de amigos. Comparações com pessoas da mesma idade. E, em alguns contextos, até comentários que sugerem que há algo "fora do lugar".
+
+Essa pressão, quando não tratada corretamente, pode gerar decisões precipitadas, ansiedade e insegurança pessoal. O desejo de corresponder às expectativas externas pode se tornar tão forte que começa a influenciar escolhas importantes, de forma equivocada.
+
+A Palavra de Deus nos chama a não nos amoldarmos ao padrão deste mundo. Isso significa que nossa identidade, decisões e valores não devem ser definidos pela cultura ao redor, mas pela vontade de Deus. O mundo estabelece cronogramas, padrões e expectativas. Deus estabelece propósito, direção e tempo definitivamente certo.
+
+Nem toda pressão deve ser atendida. Nem toda expectativa externa deve ser seguida. Viver de acordo com a vontade de Deus exige firmeza interior e clareza espiritual para não ser conduzido por opiniões alheias. Quando a identidade está firmada em Deus, a pressão externa perde força e a plena paz é encontrada.
+
+**Aplicação Prática:**
+• Tenho tomado decisões influenciado(a) pela pressão de outras pessoas?
+• Tenho me sentido cobrado(a) por padrões sociais?
+• Minha identidade está firmada em Deus ou na opinião dos outros?
+
+**Exercício espiritual:** Identifique áreas onde você sente pressão externa e entregue essas áreas a Deus, pedindo firmeza para viver segundo a vontade dEle.`,
+    oracao: 'Senhor, ajuda-me a não viver guiado(a) pela pressão das pessoas, mesmo aquelas cheias de boas intenções. Renova minha mente e firma minha identidade em Ti. Que minhas decisões sejam conduzidas pela Tua vontade e não pelas expectativas deste mundo. Em nome de Jesus, Amém.'
+  },
+  's7': {
+    title: 'Dia 7 — A espera que envolve propósito',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus…" — Romanos 8:28',
+    texto: `A espera, na vida do solteiro(a), muitas vezes é interpretada apenas como um intervalo entre o presente e o futuro desejado. No entanto, à luz das Escrituras, a espera não é um "tempo neutro" — é um tempo carregado de propósito. Deus não apenas permite a espera; Ele a utiliza como parte ativa do Seu processo de formação.
+
+Romanos 8:28 nos lembra que todas as coisas cooperam para o bem daqueles que amam a Deus. Isso inclui os períodos de silêncio, os momentos de incerteza e até as perguntas sem resposta imediata.
+
+A cooperação de todas as coisas não significa que tudo será confortável, mas que tudo pode ser redimido por Deus para um propósito maior. Durante a espera, Deus trabalha de maneiras que muitas vezes não são visíveis: Ele ajusta o caráter, fortalece a fé, amplia a maturidade emocional e alinha o coração com a Sua vontade.
+
+A ansiedade tenta interpretar a espera como ausência de ação de Deus. Mas a fé reconhece que Deus está trabalhando, mesmo quando não há sinais aparentes. A espera com propósito transforma o coração de alguém que apenas deseja algo em alguém que está sendo moldado para algo.
+
+**Aplicação Prática:**
+• Tenho encarado a minha espera como um tempo vazio ou como um tempo com propósito?
+• Em que áreas tenho percebido que Deus está trabalhando no meu caráter?
+• Tenho conseguido confiar que Deus está agindo mesmo quando não consigo ver resultados imediatos?
+
+**Exercício espiritual:** Reflita sobre os aprendizados que este tempo de espera tem produzido em sua vida e agradeça a Deus por cada processo.`,
+    oracao: 'Senhor, ajuda-me a enxergar propósito na minha espera. Mesmo quando não entendo o que estás fazendo, eu decido confiar em Tua Palavra que afirma que todas as coisas cooperam para o meu bem. Forma em mim aquilo que precisa ser formado e prepara-me para o que está por vir. Em nome de Jesus, Amém.'
+  },
+  's8': {
+    title: 'Dia 8 — O valor não depende de estar casado (Parte 1)',
+    serie: 'De Pastor para Solteiros',
+    versiculo: '"Vede que grande amor nos tem concedido o Pai, a ponto de sermos chamados filhos de Deus…" — 1 João 3:1',
+    texto: `Uma das lutas silenciosas de muitos solteiros(as) está relacionada à identidade e ao valor pessoal. Em um mundo onde relacionamentos são frequentemente vistos como um marcador de realização, é fácil cair na armadilha de pensar que estar casado define o valor de alguém.
+
+No entanto, a Palavra de Deus aponta para uma verdade muito maior: o seu valor não é determinado pelo seu estado civil, mas pela sua posição em Cristo. Você é chamado(a) filho(a) de Deus — e essa identidade não precisa de um relacionamento para ser completa.
+
+O amor do Pai não está condicionado à sua situação afetiva. Antes mesmo de qualquer relacionamento humano, Deus já declarou o Seu amor por você de forma plena e definitiva. Seu valor foi estabelecido na cruz — não no altar de um casamento.
+
+Viver a partir dessa verdade transforma a forma como você se enxerga e como você busca relacionamentos. Quando a identidade está firmada em Cristo, você não busca um relacionamento para se completar — você entra em um relacionamento como alguém já completo.
+
+**Aplicação Prática:**
+• Tenho baseado meu valor pessoal no meu estado civil?
+• Como a verdade de ser filho(a) de Deus muda a forma como me vejo?
+• Estou buscando um relacionamento para me completar ou como alguém já completo(a) em Cristo?
+
+**Exercício espiritual:** Leia 1 João 3:1-3 e medite sobre o que significa ser chamado(a) filho(a) de Deus. Escreva como essa verdade pode transformar sua perspectiva sobre si mesmo(a).`,
+    oracao: 'Senhor, ajuda-me a enxergar meu valor através dos Teus olhos, e não pelos olhos do mundo. Que minha identidade esteja firmada em Ti. Que eu viva como alguém que já é amado(a) e completo(a) em Cristo, independentemente do meu estado civil. Em nome de Jesus, Amém.'
+  },
+  // ── DEVOCIONAIS ANTERIORES (mantidos) ──
   1: {
     title: 'Devocional 1 — A verdadeira completude',
     serie: 'Solteiro, mas Completo',
@@ -146,9 +306,14 @@ const devSeries = [
     title: 'Solteiro, mas Completo',
     desc: 'Um mergulho bíblico na completude que temos em Cristo, independentemente do estado civil.',
     previas: [
-      { id: 1, title: '📖 Devocional 1 — A verdadeira completude' },
-      { id: 2, title: '📖 Devocional 2 — Solidão vs. Solitude' },
-      { id: 3, title: '📖 Devocional 3 — O tempo de preparo' }
+      { id: 's1', title: 'Dia 1 — Quando a espera parece ser longa demais', free: true },
+      { id: 's2', title: 'Dia 2 — A solidão não pode e nem deve ser vazia', free: true },
+      { id: 's3', title: 'Dia 3 — O coração precisa ser curado (Parte 1)', free: true },
+      { id: 's4', title: 'Dia 4 — Expectativas precisam ser alinhadas com as de Deus', free: true },
+      { id: 's5', title: 'Dia 5 — Quando o tempo de Deus é diferente do meu', free: true },
+      { id: 's6', title: 'Dia 6 — Lidando com a influência da pressão social', free: false },
+      { id: 's7', title: 'Dia 7 — A espera que envolve propósito', free: false },
+      { id: 's8', title: 'Dia 8 — O valor não depende de estar casado (Parte 1)', free: false }
     ],
     cta: 'Adquirir o Devocionário Completo',
     ctaWhatsApp: 'https://wa.me/5541999999999?text=Ol%C3%A1%2C%20gostaria%20de%20adquirir%20o%20Devocion%C3%A1rio%20%22Solteiro%2C%20mas%20Completo%22'
@@ -202,6 +367,10 @@ function PreviewModal({ previewId, onClose }) {
   const data = previewContent[previewId]
   const [checkoutStep, setCheckoutStep] = useState('preview')
 
+  // IDs dos devocionais gratuitos (Dias 1–5 de Solteiros)
+  const freeIds = ['s1', 's2', 's3', 's4', 's5']
+  const isFree = freeIds.includes(previewId)
+
   useEffect(() => {
     const onKey = (e) => { if (e.key === 'Escape') onClose() }
     document.addEventListener('keydown', onKey)
@@ -228,7 +397,12 @@ function PreviewModal({ previewId, onClose }) {
         {checkoutStep === 'preview' && (
           <>
             <div className={styles.modalHeader}>
-              <span className={styles.modalSerie}>✦ {data.serie}</span>
+              <div className={styles.modalHeaderTop}>
+                <span className={styles.modalSerie}>✦ {data.serie}</span>
+                {isFree && (
+                  <span className={styles.freeBadge}>✦ Gratuito</span>
+                )}
+              </div>
               <h2 className={styles.modalTitle}>{data.title}</h2>
             </div>
 
@@ -405,7 +579,15 @@ export default function Devocionais() {
                           className={styles.previaItem}
                           onClick={() => setOpenPreview(p.id)}
                         >
-                          {p.title}
+                          <span className={styles.previaItemLeft}>
+                            <span>{p.free !== undefined ? (p.free ? '📖' : '🔒') : '📖'}</span>
+                            <span>{p.title}</span>
+                          </span>
+                          {p.free !== undefined && (
+                            <span className={p.free ? styles.freeTag : styles.lockedTag}>
+                              {p.free ? 'Gratuito' : 'Premium'}
+                            </span>
+                          )}
                         </button>
                       ))}
                     </div>

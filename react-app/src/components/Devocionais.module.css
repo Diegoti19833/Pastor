@@ -314,7 +314,9 @@
 }
 
 .previaItem {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   text-align: left;
   background-color: rgba(255,255,255,0.05);
@@ -328,12 +330,45 @@
   cursor: pointer;
   font-family: inherit;
   margin-bottom: 6px;
+  gap: 0.5rem;
 }
 
 .previaItem:hover {
   background-color: rgba(201,168,76,0.15);
   border-color: var(--gold, #C8973A);
   color: var(--gold, #C8973A);
+}
+
+.previaItemLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.freeTag {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0a2e0a;
+  background: linear-gradient(135deg, #4caf50, #66bb6a);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.lockedTag {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0F1E2E;
+  background: linear-gradient(135deg, var(--gold, #C8973A), #daa84a);
+  padding: 2px 8px;
+  border-radius: 20px;
 }
 
 /* ── BUTTONS ── */
@@ -512,6 +547,14 @@
   border-bottom: 1px solid rgba(255,255,255,0.07);
 }
 
+.modalHeaderTop {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
 .modalSerie {
   display: inline-flex;
   align-items: center;
@@ -521,7 +564,21 @@
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--gold, #C8973A);
-  margin-bottom: 0.75rem;
+}
+
+.freeBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #0a2e0a;
+  background: linear-gradient(135deg, #4caf50, #66bb6a);
+  padding: 4px 12px;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(76,175,80,0.4);
 }
 
 .modalTitle {

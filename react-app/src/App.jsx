@@ -10,6 +10,9 @@ import About from './components/About'
 import Footer from './components/Footer'
 import ChurchPlanting from './components/ChurchPlanting'
 import Devocionais from './components/Devocionais'
+import PastorParaPastor from './components/PastorParaPastor'
+import MotivacaoDoCeu from './components/MotivacaoDoCeu'
+import AnseiosDaAlma from './components/AnseiosDaAlma'
 import './App.css'
 
 function HomePage() {
@@ -38,6 +41,9 @@ export default function App() {
           <Route path="/mentoria" element={<Mentoria />} />
           */}
           <Route path="/devocionais" element={<Devocionais />} />
+          <Route path="/de-pastor-para-pastor" element={<PastorParaPastor />} />
+          <Route path="/motivacao-do-ceu" element={<MotivacaoDoCeu />} />
+          <Route path="/anseios-da-alma" element={<AnseiosDaAlma />} />
         </Routes>
       </main>
       <Footer />

@@ -14,7 +14,7 @@ const timeline = [
   { year: '1988', event: 'Membro do Metropolitan Presbytery em New York' },
   { year: '2000s', event: 'Sob a Redeemer Presbyterian Church, lidera movimento de 12+ novas comunidades' },
   { year: '2008', event: 'Funda o Ministério Homens de Valor' },
-  { year: 'Hoje', event: 'Residente em Orlando, FL · 10 livros publicados · Casado com Tereza há 46 anos' },
+  { year: 'Hoje', event: 'Residente em Orlando, FL · 10 livros publicados · Casado com Tereza há 50 anos' },
 ]
 
 export default function About() {
