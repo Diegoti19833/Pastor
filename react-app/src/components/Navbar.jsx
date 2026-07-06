@@ -6,20 +6,16 @@ import styles from './Navbar.module.css'
 const links = [
   { label: 'Início', href: '#inicio', anchor: true },
   { label: 'Ministério', href: '#ministerio', anchor: true },
-  { 
-    label: 'Plantação de Igrejas', 
-    href: '#plantacao', 
-    anchor: false,
-    subMenu: [
-      { label: 'Plantar igrejas mudou a minha vida - uma jornada de fé, Chamado e Obediência', href: '/plantacao-de-igrejas' }
-    ]
-  },
+  { label: 'Plantação de Igrejas', href: '/plantacao-de-igrejas', anchor: false },
   // REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
   // { label: 'Mentoria', href: '/mentoria', anchor: false },
   { label: 'Devocionais', href: '/devocionais', anchor: false },
   { label: 'De Pastor para Pastor', href: '/de-pastor-para-pastor', anchor: false },
   { label: 'Motivação do Céu', href: '/motivacao-do-ceu', anchor: false },
   { label: 'Anseios da Alma', href: '/anseios-da-alma', anchor: false },
+  { label: 'Homens', href: '/homens', anchor: false },
+  { label: 'Porta dos Fundos', href: '/porta-dos-fundos', anchor: false },
+  { label: 'Loja', href: '/loja', anchor: false },
   { label: 'Sobre', href: '#sobre', anchor: true },
   // REMOVIDO TEMPORARIAMENTE — Restaurar futuramente:
   // { label: 'Livros', href: '#livros', anchor: true },

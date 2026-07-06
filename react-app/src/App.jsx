@@ -13,6 +13,9 @@ import Devocionais from './components/Devocionais'
 import PastorParaPastor from './components/PastorParaPastor'
 import MotivacaoDoCeu from './components/MotivacaoDoCeu'
 import AnseiosDaAlma from './components/AnseiosDaAlma'
+import Homens from './components/Homens'
+import Loja from './components/Loja'
+import PortaDosFundos from './components/PortaDosFundos'
 import './App.css'
 
 function HomePage() {
@@ -44,6 +47,9 @@ export default function App() {
           <Route path="/de-pastor-para-pastor" element={<PastorParaPastor />} />
           <Route path="/motivacao-do-ceu" element={<MotivacaoDoCeu />} />
           <Route path="/anseios-da-alma" element={<AnseiosDaAlma />} />
+          <Route path="/homens" element={<Homens />} />
+          <Route path="/loja" element={<Loja />} />
+          <Route path="/porta-dos-fundos" element={<PortaDosFundos />} />
         </Routes>
       </main>
       <Footer />

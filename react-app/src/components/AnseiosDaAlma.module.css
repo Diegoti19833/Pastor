@@ -405,6 +405,42 @@
   border-radius: 50px;
 }
 
+.tagGratis {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(135deg, #4caf50, #66bb6a);
+  padding: 2px 10px;
+  border-radius: 50px;
+}
+
+.tagPremium {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(135deg, #b8860b, #d4a017);
+  padding: 2px 10px;
+  border-radius: 50px;
+}
+
+/* Card bloqueado (pago) */
+.episodeCardPago {
+  opacity: 0.72;
+}
+
+.episodeCardPago .epNumero {
+  color: rgba(201,168,76,0.4);
+  font-size: 1.3rem;
+}
+
+.episodeCardPago .epTitulo {
+  color: rgba(255,255,255,0.55);
+}
+
 .epTitulo {
   font-family: 'Playfair Display', serif;
   font-size: 1.15rem;
@@ -740,3 +776,4 @@
     display: none;
   }
 }
+

@@ -188,6 +188,337 @@
   top: 0.4em;
 }
 
+/* ── DIVISOR ── */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  max-width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,168,76,0.35), transparent);
+}
+
+.dividerText {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: rgba(201,168,76,0.85);
+  padding: 0 1.25rem;
+  white-space: nowrap;
+}
+
+/* ── ARTIGO ── */
+.article {
+  max-width: 740px;
+  margin: 0 auto;
+  background: rgba(26,58,92,0.2);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-radius: 18px;
+  padding: 2.5rem 2.75rem;
+  animation: fadeUp 0.6s ease-out both;
+}
+
+.articleHead {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-bottom: 1.75rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(201,168,76,0.12);
+}
+
+.articleNumber {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--gold, #C9A84C);
+  opacity: 0.55;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.articleCategory {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold, #C9A84C);
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.articleTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  color: var(--white, #fff);
+  line-height: 1.2;
+}
+
+.articleBody {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: rgba(255,255,255,0.78);
+}
+
+.articleBody p {
+  margin-bottom: 1.25rem;
+}
+
+.articleBody p:last-child {
+  margin-bottom: 0;
+}
+
+.articleBody strong {
+  color: var(--gold, #C9A84C);
+  font-weight: 600;
+}
+
+.articleVerse {
+  margin: 1.75rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--gold, #C9A84C);
+  background: rgba(201,168,76,0.06);
+  border-radius: 0 10px 10px 0;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+}
+
+.articleVerse cite {
+  display: block;
+  margin-top: 0.75rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(201,168,76,0.85);
+}
+
+.articleDialogue {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: rgba(13,27,42,0.45);
+  border: 1px solid rgba(201,168,76,0.08);
+  border-radius: 12px;
+}
+
+.articleDialogue p {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.72);
+}
+
+.articleDialogue p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── ARTIGO: subtítulo, seções e listas ── */
+.articleSubtitle {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: rgba(201,168,76,0.85);
+}
+
+.articleSubheading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--white, #fff);
+  margin: 2.25rem 0 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.subheadingNum {
+  font-size: 1.05rem;
+  color: var(--gold, #C9A84C);
+  flex-shrink: 0;
+}
+
+.articleVerse {
+  margin: 1.75rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--gold, #C9A84C);
+  background: rgba(201,168,76,0.06);
+  border-radius: 0 10px 10px 0;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.12rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+}
+
+/* citação curta inline dentro do corpo */
+.pullQuote {
+  margin: 1.5rem 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.18rem;
+  color: rgba(201,168,76,0.9);
+}
+
+.articleSteps {
+  list-style: none;
+  counter-reset: step;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  background: rgba(13,27,42,0.45);
+  border: 1px solid rgba(201,168,76,0.08);
+  border-radius: 12px;
+}
+
+.articleSteps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.25rem;
+  margin-bottom: 0.85rem;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.6;
+}
+
+.articleSteps li:last-child {
+  margin-bottom: 0;
+}
+
+.articleSteps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold, #C9A84C);
+  background: rgba(201,168,76,0.12);
+  border-radius: 50%;
+}
+
+.articleQuestions {
+  list-style: none;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  background: rgba(13,27,42,0.45);
+  border: 1px solid rgba(201,168,76,0.08);
+  border-radius: 12px;
+}
+
+.articleQuestions li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.6;
+}
+
+.articleQuestions li:last-child {
+  margin-bottom: 0;
+}
+
+.articleQuestions li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: var(--gold, #C9A84C);
+  font-weight: 700;
+}
+
+/* bloco de desafio prático */
+.challenge {
+  margin: 1.5rem 0;
+  padding: 1.5rem 1.75rem;
+  background: rgba(201,168,76,0.05);
+  border: 1px solid rgba(201,168,76,0.18);
+  border-radius: 14px;
+}
+
+.challengeLabel {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold, #C9A84C);
+  margin-bottom: 0.5rem;
+}
+
+.challengeTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--white, #fff);
+  margin-bottom: 0.9rem;
+}
+
+.challenge p {
+  margin-bottom: 0.85rem;
+}
+
+.objetivo {
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(201,168,76,0.15);
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.65);
+}
+
+.objetivo strong {
+  color: var(--gold, #C9A84C);
+}
+
+.articleConclusion {
+  margin-top: 2.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(201,168,76,0.12);
+}
+
+.articleConclusion .articleSubheading {
+  margin-top: 0;
+}
+
+.soulCall {
+  margin: 1.75rem 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.85);
+}
+
+.closingQuestion {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--gold, #C9A84C);
+  margin-top: 2rem !important;
+  line-height: 1.5;
+}
+
 /* ── FILTERS ── */
 .filters {
   display: flex;

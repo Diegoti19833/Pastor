@@ -81,6 +81,44 @@ const episodios = [
   { id: 73, titulo: 'Quando Não Há Como Voltar Atrás (2 Samuel 14:14)', arquivo: 'WhatsApp Audio 2026-05-18 at 16.05.07.mp4' },
   { id: 74, titulo: 'Quando Você Não Entende o Caminho (Isaías 46:9-10)', arquivo: 'WhatsApp Audio 2026-05-18 at 16.06.05.mp4' },
   { id: 75, titulo: 'Quando o Passado Volta à Memória (Gênesis 42:21)', arquivo: 'WhatsApp Audio 2026-05-18 at 16.06.24.mp4' },
+  // ── Novos episódios ────────────────────────────────────────────────────────
+  { id: 76,  titulo: 'Guardando a Fonte da Vida',                                     arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.46.06.mp4' },
+  { id: 77,  titulo: 'Buscar a Deus É Encontrar Vida!',                               arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.46.07.mp4' },
+  { id: 78,  titulo: 'A Alma Diante do Imprevisível',                                 arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.46.07 (1).mp4' },
+  { id: 79,  titulo: 'A Esperança em um Trono que Jamais Falha',                      arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.47.11.mp4' },
+  { id: 80,  titulo: 'O Processo que Forma a Alma',                                   arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.47.12.mp4' },
+  { id: 81,  titulo: 'Esgotados Exteriormente — Renovados Interiormente',             arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.47.12 (1).mp4' },
+  { id: 82,  titulo: 'O Convite que Cura a Alma',                                     arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.47.12 (2).mp4' },
+  { id: 83,  titulo: 'O Mundo Interior que Se Renova',                                arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.47.12 (3).mp4' },
+  { id: 84,  titulo: 'As Lágrimas Guardadas por Deus',                                arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.47.12 (4).mp4' },
+  { id: 85,  titulo: 'Quando a Alma Teme Ser Esquecida',                              arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.48.40.mp4' },
+  { id: 86,  titulo: 'O Toque do Consolador na Alma',                                 arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.48.40 (1).mp4' },
+  { id: 87,  titulo: 'O Deus que Enxuga Toda Lágrima',                                arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.49.57.mp4' },
+  { id: 88,  titulo: 'Guardados pela Graça até o Fim (Judas 1:24)',                   arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.51.02.mp4' },
+  { id: 89,  titulo: 'Quando a Força Acaba, a Rocha Permanece (Salmos 73:26)',        arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.51.52.mp4' },
+  { id: 90,  titulo: 'O que Não É Cultivado, Se Perde (Lucas 19:26)',                 arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.51.52 (1).mp4' },
+  { id: 91,  titulo: 'Quando as Palavras Confrontam as Práticas (Lucas 6:46)',        arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.51.52 (2).mp4' },
+  { id: 92,  titulo: 'Quando a Alma Decide Permanecer (Apocalipse 2:10)',             arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.53.20.mp4' },
+  { id: 93,  titulo: 'Paz em Todos os Momentos (2 Tessalonicenses 3:16)',             arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.53.20 (1).mp4' },
+  { id: 94,  titulo: 'Caminhos Firmes, Alma em Paz (Salmos 119:5-6)',                 arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.54.16.mp4' },
+  { id: 95,  titulo: 'O Acordo Invisível que Sustenta a Alma (Jó 31:1)',              arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.54.16 (1).mp4' },
+  { id: 96,  titulo: 'O Perigo de uma Alma Distraída (I Reis 20:40)',                 arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.54.17.mp4' },
+  { id: 97,  titulo: 'Apenas Águas que Passaram (Jó 11:16)',                          arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.55.01.mp4' },
+  { id: 98,  titulo: 'O Silêncio que Salva a Alma (Salmos 62:1)',                     arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.55.01 (1).mp4' },
+  { id: 99,  titulo: 'A Força de uma Vida Simples (Hebreus 13:5)',                    arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.56.02.mp4' },
+  { id: 100, titulo: 'A Imprescindível Expansão Interior (Efésios 3:16)',             arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.56.03.mp4' },
+  { id: 101, titulo: 'Ancorado em Jesus e Não nas Circunstâncias (Provérbios 16:3)', arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.56.03 (1).mp4' },
+  { id: 102, titulo: 'Livres do Peso que Adoece a Alma (Efésios 4:31-32)',            arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 12.56.03 (2).mp4' },
+  { id: 103, titulo: 'O Amor que Satisfaz o Anseio da Alma (I João 3:1)',             arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.34.mp4' },
+  { id: 104, titulo: 'Fidelidade sem Comparações (Mateus 25:14-15)',                  arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.34 (1).mp4' },
+  { id: 105, titulo: 'A Alma que Decide Permanecer Fiel (Apocalipse 2:10)',           arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.34 (2).mp4' },
+  { id: 106, titulo: 'Quando a Mente Amplifica a Dor (Provérbios 23:7)',              arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.34 (3).mp4' },
+  { id: 107, titulo: 'A Âncora Segura para a Alma Rejeitada (Salmos 27:10)',          arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.35.mp4' },
+  { id: 108, titulo: 'O Amadurecimento da Alma em Tempos Difíceis (Tiago 1:2-4)',     arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.35 (1).mp4' },
+  { id: 109, titulo: 'O Mandamento que Liberta a Alma (Êxodo 20:17)',                 arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-11 at 13.03.35 (2).mp4' },
+  { id: 110, titulo: 'Quando Não Há Como Voltar Atrás (2 Samuel 14:14)',              arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-12 at 05.03.39.mp4' },
+  { id: 111, titulo: 'Quando Você Não Entende o Caminho (Isaías 46:9-10)',            arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-12 at 05.03.39 (1).mp4' },
+  { id: 112, titulo: 'Quando o Passado Volta à Memória (Gênesis 42:21)',              arquivo: '/Audio/AnseiodaAlma2/WhatsApp Audio 2026-06-12 at 05.03.39 (2).mp4' },
 ]
 
 // ── PLAYER COMPONENT ────────────────────────────────────────────────────────
@@ -147,7 +185,7 @@ function AudioPlayer({ episodio, onEnded }) {
     <div className={styles.player}>
       <audio
         ref={audioRef}
-        src={BASE + episodio.arquivo}
+        src={episodio.arquivo.startsWith('/') ? episodio.arquivo : BASE + episodio.arquivo}
         onTimeUpdate={onTimeUpdate}
         onLoadedMetadata={onLoadedMetadata}
         onEnded={handleEnded}
@@ -335,10 +373,12 @@ export default function AnseiosDaAlma() {
           {episodiosAtuais.map((ep, idx) => {
             const isAtivo = ativo === ep.id
             const semAudio = !ep.arquivo
+            const isFree = ep.id <= 5
+            const isPago = !isFree
             return (
               <article
                 key={ep.id}
-                className={`${styles.episodeCard} ${isAtivo ? styles.episodeCardAtivo : ''} ${semAudio ? styles.episodeCardBreve : ''}`}
+                className={`${styles.episodeCard} ${isAtivo ? styles.episodeCardAtivo : ''} ${semAudio ? styles.episodeCardBreve : ''} ${isPago ? styles.episodeCardPago : ''}`}
                 style={{ '--delay': `${idx * 0.045}s` }}
               >
                 <div className={styles.epNumero}>
@@ -348,6 +388,8 @@ export default function AnseiosDaAlma() {
                 <div className={styles.epBody}>
                   <div className={styles.epTags}>
                     <span className={styles.tag}>Anseios da Alma</span>
+                    {isFree && <span className={styles.tagGratis}>Gratuito</span>}
+                    {isPago && <span className={styles.tagPremium}>Premium</span>}
                     {semAudio && <span className={styles.tagBreve}>Em breve</span>}
                   </div>
                   <h2 className={styles.epTitulo}>{ep.titulo}</h2>

@@ -325,6 +325,90 @@
   border: 1px solid rgba(26,58,92,0.6);
 }
 
+/* ── LESSONS BLOCK ── */
+.lessonsBlock {
+  margin-bottom: 4rem;
+  padding: 2.5rem;
+  border-radius: 12px;
+  background: rgba(13,27,42,0.4);
+  border: 1px solid rgba(201,168,76,0.18);
+}
+
+.lessonsList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  counter-reset: lesson;
+}
+
+.lessonItem {
+  position: relative;
+  padding-left: 3.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.lessonNum {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(201,168,76,0.12);
+  border: 1px solid rgba(201,168,76,0.45);
+  color: var(--gold, #C8973A);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.lessonTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  color: var(--white, #fff);
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.lessonText {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.72);
+  margin: 0;
+}
+
+/* ── PONDER BLOCK ── */
+.ponderBlock {
+  margin-bottom: 4rem;
+  padding: 2.5rem;
+  border-radius: 12px;
+  background: rgba(26,58,92,0.2);
+  border-left: 3px solid var(--gold, #C8973A);
+}
+
+.ponderList {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0 0;
+}
+
+.ponderList li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.78);
+  margin-bottom: 1.25rem;
+  padding-left: 0.5rem;
+}
+
+.ponderList li::marker {
+  color: var(--gold, #C8973A);
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
 /* ── CLOSING ── */
 .closingBlock {
   margin-bottom: 5rem;
@@ -461,6 +545,10 @@
   .container { padding: 3.5rem 1.25rem 4rem; }
   .pullQuotes { padding: 1.75rem 1.25rem; }
   .portalBlock { padding: 1.75rem 1.25rem; }
+  .lessonsBlock { padding: 1.75rem 1.25rem; }
+  .ponderBlock { padding: 1.75rem 1.25rem; }
+  .lessonItem { padding-left: 3rem; }
+  .lessonNum { width: 2rem; height: 2rem; font-size: 0.95rem; }
   .pillarsGrid { grid-template-columns: 1fr; }
   .ctaBlock { padding: 3rem 1.25rem; }
   .seara { gap: 1rem; }

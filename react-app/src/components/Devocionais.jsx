@@ -9,7 +9,29 @@ import imgEmpresarios from '../assets/empresarios_theme_1775152764701.png'
 
 // ── CONTEÚDO REAL DAS PRÉVIAS ──
 const previewContent = {
-  // ── SOLTEIROS — Dias 1-8 ──
+  // ── SOLTEIROS — Introdução, Dias 1-8 e Conclusão ──
+  's-intro': {
+    title: 'Introdução — Vivendo com Propósito, Identidade e Fé Nesta Estação',
+    serie: 'Solteiro, mas Completo',
+    versiculo: '"Espera no Senhor; anima-te, e Ele fortalecerá o teu coração; espera, pois, no Senhor." — Salmos 27:14',
+    texto: `Há estações na vida que não são fáceis de explicar. Por fora, tudo parece estar bem. A rotina segue. Os dias passam. A vida continua. Mas, por dentro, existem perguntas silenciosas. Expectativas não cumpridas. E, às vezes, uma sensação difícil de descrever.
+
+A fase da solteirice pode ser uma das mais desafiadoras da vida — não por falta de valor, mas por excesso de expectativas. Expectativas da família. Da sociedade. Dos amigos. E até do próprio coração. "Quando vai acontecer?" "Será que estou atrasado(a)?" "Será que Deus se esqueceu de mim?" Essas perguntas ecoam em muitos corações — mesmo entre aqueles que amam a Deus, servem fielmente e desejam viver uma vida alinhada com Ele.
+
+Este devocionário nasceu exatamente para esse lugar. Não é um manual sobre como encontrar alguém. Não é um conjunto de fórmulas para um relacionamento perfeito. É um convite. Um convite para redescobrir algo essencial: sua identidade, sua completude e seu propósito em Deus — agora.
+
+Porque existe uma verdade que precisa ser restaurada: a solteirice não é um vazio a ser preenchido. É uma estação a ser vivida. E mais do que isso — é uma oportunidade única de crescimento, alinhamento e intimidade com Deus.
+
+Aqui, você não encontrará pressão. Encontrará direção. Não encontrará comparação. Encontrará verdade. Não encontrará respostas prontas para o futuro. Mas encontrará fundamentos firmes para o presente. Antes de Deus escrever uma história a dois, Ele deseja fortalecer sua história com Ele.
+
+**Antes de começar:**
+• Antes de compartilhar sua vida com alguém, Ele deseja que você esteja enraizado(a) nEle.
+• Este é um tempo de preparação — mas também é um tempo de plenitude.
+• Você não está incompleto(a). Você não está atrasado(a). Você não está esquecido(a).
+
+Deus está trabalhando — mesmo quando você não vê. E cuidando de cada detalhe — inclusive do seu coração. Que, ao longo destas páginas, você não apenas encontre respostas… mas encontre Deus de forma mais profunda do que nunca.`,
+    oracao: 'Senhor, eu entrego a Ti esta estação da minha vida. Ensina-me a vivê-la com propósito, identidade e fé. Que eu não busque apenas respostas sobre o futuro, mas que Te encontre de forma mais profunda no presente. Enraíza-me em Ti antes de qualquer outra coisa. Em nome de Jesus, Amém.'
+  },
   's1': {
     title: 'Dia 1 — Quando a espera parece ser longa demais',
     serie: 'De Pastor para Solteiros',
@@ -168,6 +190,26 @@ Viver a partir dessa verdade transforma a forma como você se enxerga e como voc
 **Exercício espiritual:** Leia 1 João 3:1-3 e medite sobre o que significa ser chamado(a) filho(a) de Deus. Escreva como essa verdade pode transformar sua perspectiva sobre si mesmo(a).`,
     oracao: 'Senhor, ajuda-me a enxergar meu valor através dos Teus olhos, e não pelos olhos do mundo. Que minha identidade esteja firmada em Ti. Que eu viva como alguém que já é amado(a) e completo(a) em Cristo, independentemente do meu estado civil. Em nome de Jesus, Amém.'
   },
+  's-conclusao': {
+    title: 'Conclusão — Permanecendo Completo em Qualquer Estação',
+    serie: 'Solteiro, mas Completo',
+    versiculo: '"Aprendi a contentar-me, seja em que estado quer que esteja." — Filipenses 4:11',
+    texto: `Se você chegou até aqui, algo importante já aconteceu. Talvez não ao seu redor — mas dentro de você. Porque a maior transformação desta jornada não está em mudar circunstâncias, mas em alinhar o coração com a perspectiva de Deus.
+
+Ao longo dessas páginas, uma verdade foi reafirmada repetidas vezes: você não precisa esperar um relacionamento para ser completo(a). Sua identidade não está no seu estado civil. Seu valor não depende de quem está ao seu lado. E seu propósito não está suspenso até que algo aconteça.
+
+Você já é visto(a). Já é amado(a). Já é completo(a) em Deus. Isso não significa que o desejo por um relacionamento desaparece. Ele é legítimo. Ele é humano. Mas ele precisa estar no lugar certo. Quando o relacionamento deixa de ser necessidade e passa a ser complemento, o coração encontra equilíbrio. E é nesse lugar que a vida floresce.
+
+Talvez o seu próximo capítulo envolva alguém. Talvez ainda não. Mas isso não muda uma realidade essencial: Deus continua sendo suficiente. E mais do que isso — Ele continua sendo presente, ativo e fiel.
+
+**Para levar com você:**
+• Se essa estação continuar, viva-a com propósito.
+• Se ela mudar, entre na nova fase com maturidade.
+• Em qualquer cenário, permaneça firme nesta verdade: você não está esperando a vida começar — você já está vivendo.
+
+Deus está escrevendo uma história — não apenas sobre quem estará ao seu lado, mas sobre quem você está se tornando. Que sua vida seja marcada não pela pressa, mas pela presença. Não pela ansiedade, mas pela confiança. E não pela falta, mas pela plenitude que só Deus pode dar. Permaneça nEle. Confie nEle. E viva — completa e intensamente — cada estação.`,
+    oracao: 'Senhor, eu Te agradeço por esta jornada e por tudo o que aprendi sobre minha identidade e completude em Ti. Ajuda-me a permanecer firme nesta verdade em qualquer estação que eu viva. Que minha vida seja marcada pela presença, pela confiança e pela plenitude que só vem de Ti. Em nome de Jesus, Amém.'
+  },
   // ── DEVOCIONAIS ANTERIORES (mantidos) ──
   1: {
     title: 'Devocional 1 — A verdadeira completude',
@@ -213,30 +255,45 @@ O mesmo Deus que preparou José para o palácio está te preparando para o que v
     oracao: 'Senhor, que eu não desperdice o tempo de preparo. Que eu coopere com a Tua obra em mim em vez de resistir a ela. Que quando a bênção chegar, eu seja capaz de sustentá-la. Amém.'
   },
   4: {
-    title: 'Devocional 1 — O propósito do casamento',
+    title: 'Dia 1 — Quando o Amor Esfria',
     serie: 'Aliança Renovada',
-    versiculo: '"Por isso o homem deixará pai e mãe e se unirá à sua mulher, e os dois serão uma só carne." — Gênesis 2:24',
-    texto: `Você se casou por amor. Mas o amor que te levou ao altar é apenas o começo de algo muito maior do que você imaginava.
+    versiculo: '"Tenho, porém, contra você que abandonou o seu primeiro amor." — Apocalipse 2:4',
+    texto: `O amor no casamento raramente se desfaz repentinamente — ele esfria aos poucos, gradativamente. Não é uma grande briga que destrói tudo, mas pequenas distâncias diárias: conversas que deixam de acontecer, gestos que deixam de ser feitos, atenção que vai sendo substituída por rotina.
 
-O casamento bíblico não foi projetado primariamente para sua felicidade — foi projetado para refletir a aliança entre Cristo e a Igreja. Isso significa que quando o casamento está difícil, não é sinal de que você escolheu errado. Pode ser sinal de que você está sendo chamado a amar de um jeito que não vem naturalmente.
+Sem perceber, dois corações que antes batiam juntos começam a viver lado a lado… mas não mais conectados. O mais sério é que muitos casais se acostumam com esse estado. Não brigam, mas também não se amam como antes. Apenas coexistem.
 
-A palavra "deixar" em Gênesis não é apenas geográfica. É psicológica, emocional, espiritual. Muitos casamentos sofrem não porque as pessoas se desuniram, mas porque nunca completaram o processo de "deixar".
+Quando Jesus fala à igreja em Apocalipse sobre abandonar o "primeiro amor", Ele não está falando apenas de intensidade emocional — mas de prioridade, zelo e intenção. Isso também se aplica ao casamento. O amor esfria quando deixamos de investir, paramos de ouvir, substituímos presença por distrações e, principalmente, quando Deus deixa de ser o centro da relação.
 
-**Reflexão:** O que você ainda precisa "deixar" — hábito, expectativa, padrão familiar — para que sua união possa florescer?`,
-    oracao: 'Senhor, que nosso casamento seja um reflexo da Tua aliança. Que aprendamos a nos amar como Tu nos amastes — sem mérito, sem condição, sem fim. Amém.'
+Mas há esperança. Se o amor pode esfriar, ele também pode ser reaquecido. Deus não apenas restaura casamentos — Ele cria um amor mais maduro, mais profundo e mais intencional do que antes. O primeiro amor pode não voltar da mesma forma… mas pode dar lugar a um amor mais forte, mais consciente e mais dependente de Deus.
+
+**Aplicação Prática:**
+• Reconhecer sem negar — o primeiro passo é admitir: "algo esfriou entre nós."
+• Voltar às pequenas atitudes — recomeçar com gestos simples: ouvir com atenção, demonstrar carinho, reservar tempo de qualidade.
+• Recolocar Deus no centro — casamentos não se sustentam apenas com esforço humano, precisam de direção espiritual.
+• Decidir amar novamente — o amor no casamento não é só sentimento, é decisão diária.`,
+    oracao: 'Senhor, reconhecemos que, em alguns momentos, nosso amor esfriou. Perdemos a intensidade, o cuidado e a prioridade que antes existiam. Hoje Te pedimos: reacende em nós aquilo que se apagou. Restaura nosso coração, renova nossa conexão e nos ensina a amar como o Senhor nos ama — com graça, paciência e verdade. Em nome de Jesus, amém.'
   },
   5: {
-    title: 'Devocional 2 — Graça nas imperfeições',
+    title: 'Dia 2 — Um Só Corpo, Um Só Propósito',
     serie: 'Aliança Renovada',
-    versiculo: '"Sede bondosos e compassivos uns para com os outros, perdoando-vos mutuamente, assim como Deus vos perdoou em Cristo." — Efésios 4:32',
-    texto: `Há um momento em todos os casamentos em que a máscara cai. O encanto do namoro dá lugar à realidade cotidiana, e você se vê casado com alguém que é — surpreendentemente — humano.
+    versiculo: '"Por isso, deixa o homem pai e mãe e se une à sua mulher, tornando-se os dois uma só carne." — Gênesis 2:24',
+    texto: `O plano de Deus para o relacionamento conjugal sempre foi mais profundo do que simplesmente viver juntos. Desde o princípio, Ele estabeleceu a união como algo espiritual, emocional e físico — uma aliança onde dois se tornam um.
 
-Aqui está onde a graça entra. Não como resignação passiva, mas como escolha ativa de ver a outra pessoa através dos olhos de Cristo — imperfeita, sim, mas profundamente amada e em processo.
+"Tornar-se uma só carne" vai além da intimidade; fala de unidade de propósito, de caminhar na mesma direção, de compartilhar sonhos, dores e fé. Não é sobre perder a identidade, mas sobre construir algo novo juntos, com Deus no centro.
 
-O perdão no casamento não é fraqueza. É a força mais madura que existe. Guardar rancor dentro de casa é como beber veneno esperando que o outro sofra.
+Infelizmente, muitos relacionamentos hoje vivem divididos — cada um buscando seus próprios interesses, suas próprias vontades. Mas a Palavra nos lembra que a verdadeira união exige entrega, renúncia e compromisso diário.
 
-**Reflexão:** Há algum rancor que você está carregando no casamento que ainda não entregou verdadeiramente a Deus?`,
-    oracao: 'Pai, que eu aprenda a estender ao meu cônjuge a mesma graça que recebo de Ti todos os dias. Que o perdão seja o idioma da nossa casa. Amém.'
+Deixar pai e mãe também simboliza maturidade. É entender que um novo ciclo começa e que essa nova aliança precisa ser prioridade. Não significa abandonar a família, mas reorganizar prioridades sob a direção de Deus.
+
+Quando um casal entende que foi unido por Deus, ele passa a lutar pela relação, e não dentro dela. Um casamento cristão envolve mais do que a mistura de duas pessoas. Também inclui uma terceira pessoa — Jesus Cristo, que dá significado, orientação, propósito e direção ao relacionamento. Quando Ele preside um casamento, então e somente então, é um casamento cristão.
+
+**Aplicação Prática:**
+• Separe um momento da semana para conversar intencionalmente com seu cônjuge sobre sonhos, planos e desafios.
+• Ore junto com a pessoa que está ao seu lado, mesmo que por poucos minutos por dia.
+• Pratique pequenas atitudes de renúncia: ceder, ouvir mais, evitar querer sempre ter razão.
+• Defina prioridades claras: seu relacionamento precisa estar acima de distrações, rotina ou interferências externas.
+• Busque tomar decisões importantes em conjunto, fortalecendo a unidade.`,
+    oracao: 'Senhor Deus, nós Te agradecemos pelo privilégio de construir uma vida a dois debaixo da Tua vontade. Reconhecemos que, muitas vezes, falhamos em viver essa unidade que o Senhor planejou, permitindo que o ego, o orgulho e a falta de paciência criem distâncias entre nós. Ensina-nos, Pai, a amar de forma verdadeira, com um coração disposto a servir, perdoar e recomeçar sempre que necessário. Ajuda-nos a renunciar aquilo que nos afasta um do outro e a cultivar atitudes que fortalecem nossa união diariamente. Guarda o nosso coração contra tudo aquilo que tenta dividir, esfriar ou enfraquecer nossa aliança. Dá-nos sabedoria para tomar decisões, paciência nos momentos difíceis e sensibilidade para cuidar um do outro com amor e respeito. Que a nossa união reflita a Tua presença, e que sejamos um só, assim como o Senhor sonhou desde o princípio. Em nome de Jesus, amém.'
   },
   6: {
     title: 'Devocional 1 — A presença na ausência',
@@ -306,6 +363,7 @@ const devSeries = [
     title: 'Solteiro, mas Completo',
     desc: 'Um mergulho bíblico na completude que temos em Cristo, independentemente do estado civil.',
     previas: [
+      { id: 's-intro', title: 'Introdução — Vivendo com Propósito, Identidade e Fé', free: true },
       { id: 's1', title: 'Dia 1 — Quando a espera parece ser longa demais', free: true },
       { id: 's2', title: 'Dia 2 — A solidão não pode e nem deve ser vazia', free: true },
       { id: 's3', title: 'Dia 3 — O coração precisa ser curado (Parte 1)', free: true },
@@ -313,7 +371,8 @@ const devSeries = [
       { id: 's5', title: 'Dia 5 — Quando o tempo de Deus é diferente do meu', free: true },
       { id: 's6', title: 'Dia 6 — Lidando com a influência da pressão social', free: false },
       { id: 's7', title: 'Dia 7 — A espera que envolve propósito', free: false },
-      { id: 's8', title: 'Dia 8 — O valor não depende de estar casado (Parte 1)', free: false }
+      { id: 's8', title: 'Dia 8 — O valor não depende de estar casado (Parte 1)', free: false },
+      { id: 's-conclusao', title: 'Conclusão — Permanecendo Completo em Qualquer Estação', free: false }
     ],
     cta: 'Adquirir o Devocionário Completo',
     ctaWhatsApp: 'https://wa.me/5541999999999?text=Ol%C3%A1%2C%20gostaria%20de%20adquirir%20o%20Devocion%C3%A1rio%20%22Solteiro%2C%20mas%20Completo%22'
@@ -326,8 +385,8 @@ const devSeries = [
     title: 'Aliança Renovada',
     desc: 'Princípios fundamentais para uma vida a dois sustentada pela graça, renúncia e perdão.',
     previas: [
-      { id: 4, title: '📖 Devocional 1 — O propósito do casamento' },
-      { id: 5, title: '📖 Devocional 2 — Graça nas imperfeições' },
+      { id: 4, title: '📖 Dia 1 — Quando o Amor Esfria' },
+      { id: 5, title: '📖 Dia 2 — Um Só Corpo, Um Só Propósito' },
     ],
     ctaText: 'Ver prévias →',
     ctaWhatsApp: 'https://wa.me/5541999999999?text=Ol%C3%A1%2C%20gostaria%20de%20adquirir%20o%20Devocion%C3%A1rio%20%22Alian%C3%A7a%20Renovada%22'
@@ -367,8 +426,8 @@ function PreviewModal({ previewId, onClose }) {
   const data = previewContent[previewId]
   const [checkoutStep, setCheckoutStep] = useState('preview')
 
-  // IDs dos devocionais gratuitos (Dias 1–5 de Solteiros)
-  const freeIds = ['s1', 's2', 's3', 's4', 's5']
+  // IDs dos devocionais gratuitos (Introdução + Dias 1–5 de Solteiros)
+  const freeIds = ['s-intro', 's1', 's2', 's3', 's4', 's5']
   const isFree = freeIds.includes(previewId)
 
   useEffect(() => {

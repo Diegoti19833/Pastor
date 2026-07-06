@@ -83,8 +83,14 @@ export default function About() {
               com a sua audiência.
             </p>
             <p>
+              Ao longo da sua carreira ministerial, Nélio recebeu mentoria de
+              líderes de nomes renomados como{' '}
+              <strong>John Maxwell, Rick Warren, Tim Keller</strong> entre
+              outros de grande influência no cenário cristão mundial.
+            </p>
+            <p>
               Tem <strong>10 livros publicados</strong>. É casado com{' '}
-              <strong>Tereza</strong>, há 46 anos. Eles têm três filhos adultos,{' '}
+              <strong>Tereza</strong>, há 50 anos. Eles têm três filhos adultos,{' '}
               <strong>Leonardo, Marcus e Michael</strong>. E três netos,{' '}
               <strong>Kingston, Phoenix e Atticus</strong>.
             </p>

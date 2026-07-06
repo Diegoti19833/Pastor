@@ -10,7 +10,7 @@ const pillars = [
     icon: churchIcon,
     tag: 'Fundação',
     title: 'Plantação de Igrejas',
-    text: 'Pioneiro na plantação de igrejas de língua portuguesa nos EUA, Nélio estabeleceu comunidades sólidas em Nova York, Connecticut e New Jersey, sempre com raízes profundas na teologia reformada.',
+    text: 'Pioneiro na plantação de igrejas de língua portuguesa nos EUA, Nélio estabeleceu comunidades sólidas em Connecticut e New Jersey, sempre com raízes profundas na teologia reformada.',
     highlight: '12+ Comunidades Plantadas',
   },
   {
@@ -24,7 +24,7 @@ const pillars = [
     icon: bibleIcon,
     tag: 'Ensinamento',
     title: 'Pregação e Ensino Bíblico',
-    text: 'Com 50 anos de ministério, Nélio combina profundidade teológica reformada, humor, histórias marcantes e uma extraordinária facilidade de conectar-se com a audiência — do leigo ao líder.',
+    text: 'Com 50 anos de ministério, Nélio combina profundidade teológica reformada, humor, histórias marcantes e uma extraordinária facilidade de conectar-se com a audiência — do leigo aos mais experientes líderes cristãos.',
     highlight: '50+ Anos de Ministério',
   },
   {
