@@ -27,3 +27,10 @@ dist-ssr
 
 # Project specific
 .claude/
+
+# Variaveis de ambiente / chaves secretas (NUNCA commitar)
+# Regra: ignora todo .env em qualquer pasta...
+.env
+.env.*
+# ...exceto o modelo de documentacao (negacao precisa vir por ultimo)
+!.env.example

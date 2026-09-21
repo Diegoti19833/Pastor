@@ -111,4 +111,5 @@
 @media (max-width: 500px) {
   .top { grid-template-columns: 1fr; }
   .bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+  .footer { padding: 3rem 0 0; }
 }

@@ -162,3 +162,8 @@
   .inner { grid-template-columns: 1fr; gap: 3rem; }
   .container { padding: 0 1.5rem; }
 }
+
+@media (max-width: 768px) {
+  .contact { padding: 4rem 0; }
+  .form { padding: 1.5rem; }
+}

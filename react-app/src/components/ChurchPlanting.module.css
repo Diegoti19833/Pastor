@@ -554,3 +554,9 @@
   .seara { gap: 1rem; }
   .searaLine { max-width: 60px; }
 }
+
+@media (max-width: 480px) {
+  .heroContent { padding: 100px 1rem 0; }
+  .container { padding: 2.5rem 1rem 4rem; }
+  .blockquote { padding: 1rem 1.25rem; font-size: 0.92rem; }
+}

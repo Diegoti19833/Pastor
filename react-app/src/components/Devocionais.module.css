@@ -685,6 +685,8 @@
   .modalOracao { margin: 0 1.25rem 1.25rem; }
   .modalFooter { padding: 1.25rem 1.25rem 1.75rem; }
   .modal { border-radius: 12px; max-height: 95vh; }
+  .checkoutBox { padding: 1.5rem; }
+  .cardRow { grid-template-columns: 1fr; }
 }
 
 /* ── CHECKOUT FLOW ── */

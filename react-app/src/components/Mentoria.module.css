@@ -523,4 +523,5 @@
   .featuresGrid { grid-template-columns: 1fr; }
   .quoteBlock { padding: 1.75rem 1.25rem; }
   .ctaBlock { padding: 3rem 1.25rem; }
+  .heroCardBlock::before { display: none; }
 }
